@@ -1,9 +1,41 @@
 body {
-    background-color: powderblue;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlantic_near_Faroe_Islands.jpg');
   }
 h1 {
-    color: blue;
+    color: rgb(0, 255, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1000%;
     text-align:center;
-    font-size:100px;
-    font-family:verdana;
+    border: 20px solid navy;
+    background-color: powderblue;
+    background-size: 100% 100%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 150%;
+    padding: 30px;
+    margin: 50px;
+}
+a:link, a:hover, a:visited, a:active   {
+    background-color:#1fa610;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:visited {
+    color: rgb(4, 4, 4);
+    background-color:blueviolet;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
