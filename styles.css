@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlantic_near_Faroe_Islands.jpg');
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/Atlantic_near_Faroe_Islands.jpg');*/
+    background-image: url("https://cdn.discordapp.com/attachments/1008571157592674431/1285322623856939175/analytics_club_psychedelic_mushrooms_hyperrealistic_awe_inspiri_573ac023-035d-4843-8a4e-b7250850fe5b.png?ex=66e9d979&is=66e887f9&hm=b63077832af09c8d6c133f193fa6eb996779423998d175a59b8cb264b18456f6&");
     margin: 5%;
     text-align: center;
 }

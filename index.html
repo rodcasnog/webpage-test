@@ -16,32 +16,18 @@
     <p style="font-size:160%;color:rgb(186, 29, 29);">hola</p>
     
     <img title="a doggy" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/BlkStdSchnauzer2.jpg" alt="un puto tekel" height="600">
+    
+    
     <hr>
-    <!--bla bla bla-->
-    <pre style="background-color:tomato;">
-      My Bonnie lies over the ocean.
-    
-      My Bonnie lies over the sea.
-    
-      My Bonnie lies over the ocean.
-    
-      Oh, bring back my Bonnie to me.
-    </pre>
-    
-    <p>Here is a <q>quote</q> from WWF's website about <abbr title="World Health Organization">WHO</abbr>:</p>
-    <blockquote cite="http://www.worldwildlife.org/who/index.html">
-      For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
-    </blockquote>
+    <p id="par">gemkemgvkm</p>
 
-    <address>
-      Written by John Doe.<br>
-      Visit us at:<br>
-      Example.com<br>
-      Box 564, Disneyland<br>
-      USA
-    </address>
+    <script type="module">
+      import Component from "./test2.js";
+      document.getElementById("par").innerHTML = Component();
+    </script>
+
+    <hr>
     <a href="#titulo">arriba</a>
-    <bdo dir="rtl">This text will be written from right to left</bdo>
 
     
     <div id="rgbaresult" style="line-height: 80px; background-color: rgba(255, 99, 71, 0.5);">
@@ -75,8 +61,8 @@
       </div>
     </div>
     <script>
-      changeRGBA("r");
-      function changeRGBA(x) {
+      changeRGBA();
+      function changeRGBA() {
         var col, r, g, b, a;
         r = document.getElementById("slideRedA").value    ;
         g = document.getElementById("slideGreenA").value;
